@@ -50,6 +50,7 @@ $suma = $numero1 + $numero2;
 $resta = $numero1 - $numero2;
 $multiplicacion = $numero1 * $numero2;
 $division = $numero1 / $numero2;
+$resto = $numero1 % $numero2;
 
 
 if($numero1 > $numero2) {
@@ -59,7 +60,7 @@ if($numero1 > $numero2) {
 	
 } elseif($numero1 < $numero2) {
 	
-	echo $numero2." es mayor que ".$numero1."<br>La multiplicacion de ".$numero1." x ".$numero2." es igual a ".$multiplicacion."<br>Y la division de ".$numero1." / ".$numero2." es igual a ".$division;
+	echo $numero2." es mayor que ".$numero1."<br>La multiplicacion de ".$numero1." x ".$numero2." es igual a ".$multiplicacion."<br>Y la division de ".$numero1." / ".$numero2." es igual a ".(int) ($division).", quedando de resto ".$resto;
 	
 } else {
 	
